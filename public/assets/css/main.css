@@ -1,0 +1,265 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #fff;
+}
+
+/* Css untuk footer */
+.imagesppid {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    .cursorfocus {
+        cursor: pointer;
+        color: orange;
+    }
+
+    .cursorfocus:hover {
+        color: black;
+    }
+
+    .columnlogopartner {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+    }
+
+    .rowlogopartner {
+        flex-direction: row;
+        display: flex;
+
+
+    }
+
+    .iconlogo {
+        height: auto;
+
+        width: 110px;
+    }
+
+    .iconlogobesar {
+        height: auto;
+        width: 175px;
+    }
+
+    .iconlogokecil {
+        height: auto;
+        width: 90px;
+    }
+
+    .jaraklogo {
+        margin-right: 12px;
+    }
+
+    hr.newlinefooter {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 3px solid #ccc;
+        /*  margin-top: -50px;*/
+
+    }
+
+    .column1logo {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+
+    .column2logo {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+    }
+
+    .columnlogocenter {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+    }
+
+    .rowswitchlogopartner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    @media only screen and (max-width: 900px) {
+        .column1logo {
+            flex-direction: column;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .logoke2 {
+            width: 250px;
+        }
+
+        .rowswitchlogopartner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .column2logo {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+
+        .columnlogocenter {
+            flex-direction: column;
+            display: flex;
+            align-self: center;
+        }
+
+        .iconlogo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            height: 125px;
+
+            width: auto;
+        }
+
+        .jaraklogo {
+            margin-right: 0px;
+        }
+
+        .iconlogokecil {
+            height: 125px;
+            width: -webkit-calc(100% - 50px);
+
+        }
+    }
+
+    /* css untuk footer */
+    
+    .groupsocilmedia {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+
+            }
+
+            .groupcolumnsosmed {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                align-items: flex-end;
+
+            }
+
+            .grouprowsosmed {
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+                align-self: flex-end;
+                margin-top: -1.2%;
+            }
+
+            .logososmed {
+                font-size: 24px;
+            }
+
+            .textmedsos {
+                margin-right: 20px;
+                font-family: "GothamMedium";
+            }
+
+            .twitterlogo {
+                margin-right: 10px;
+            }
+
+            .instagramlogo {
+                margin-right: 10px;
+            }
+
+            .group2rowsosmed {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .groucolumnfooter {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                color: white;
+
+            }
+
+            .grouprowfooter {
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            .aboutppid {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                align-items: flex-start;
+            }
+
+            .columncopyright {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                margin-top: -1%;
+                align-items: flex-end;
+            }
+
+            @media only screen and (max-width: 750px) {
+                .grouprowsosmed {
+                    flex-direction: column;
+                    align-self: center;
+                    margin-top: 0;
+                }
+
+                .textmedsos {
+                    padding-left: 5.6px;
+
+                    margin-bottom: 10px;
+                }
+
+                .groupcolumnsosmed {
+
+                    align-self: center;
+                }
+
+                .grouprowfooter {
+
+                    flex-direction: column-reverse;
+
+                }
+
+                .aboutppid {
+                    align-items: center;
+                }
+
+                .groupsocilmedia {
+                    margin-bottom: 10px;
+                }
+
+                .columncopyright {
+                    margin-top: 10px;
+                }
+
+                .group2rowsosmed {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+            }
